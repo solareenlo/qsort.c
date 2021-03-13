@@ -84,8 +84,10 @@ typedef struct
       smaller partition.  This *guarantees* no more than log (total_elems)
       stack size is needed (actually O(1) in this case)!  */
 
+typedef int		 cmp_t(const void *, const void *, void *);
+
 void
-_quicksort (void *const pbase, size_t total_elems, size_t size, __compar_d_fn_t cmp, void *arg)
+_quicksort (void *const pbase, size_t total_elems, size_t size, cmp_t cmp, void *arg)
 {
   char *base_ptr = (char *) pbase;
 

@@ -2,6 +2,7 @@
 - Source code for various `qsort.c`.
 
 ## References
+- https://opensource.apple.com/source/Libc/Libc-1439.40.11/stdlib/FreeBSD/heapsort.c.auto.html
 - https://opensource.apple.com/source/Libc/Libc-1439.40.11/stdlib/FreeBSD/qsort.c.auto.html
 - [freebsd/freebsd-src/lib/libc/stdlib/qsort.c](https://github.com/freebsd/freebsd-src/blob/main/lib/libc/stdlib/qsort.c)
 - [glibc/stdlib/qsort.c](https://elixir.bootlin.com/glibc/latest/source/stdlib/qsort.c)
